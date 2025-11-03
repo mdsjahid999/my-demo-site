@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="bn">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>নোটিশ - বাগমারা বালিকা উচ্চ বিদ্যালয়</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.maateen.me/kalpurush/font.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-top">
+            <div class="logo-section">
+                <img src="img/Untitled-1.png" alt="স্কুল লোগো" class="logo">
+                <h1>বাগমারা বালিকা উচ্চ বিদ্যালয়</h1>
+                <p class="established-info">স্থাপিত: ১৯৭৪, EIIN No: 124585, বাগমারা, লালমাই, কুমিল্লা</p>
+            </div>
+            <div class="header-buttons">
+                <button id="languageBtn" class="btn-primary">
+                    <i class="fas fa-language"></i>
+                    বাংলা/English
+                </button>
+                <button id="loginBtn" class="btn-secondary">
+                    <i class="fas fa-sign-in-alt"></i>
+                    স্কুল লগিন
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav class="main-nav">
+        <ul>
+            <li><a href="index.html"><i class="fas fa-home"></i> হোম</a></li>
+            <li><a href="notice.html" class="nav-active"><i class="fas fa-bell"></i> নোটিশ</a></li>
+            <li><a href="about.html"><i class="fas fa-info-circle"></i> বিদ্যালয় সম্পর্কে</a></li>
+            <li><a href="students.html"><i class="fas fa-user-graduate"></i> শিক্ষার্থী</a></li>
+            <li><a href="results.html"><i class="fas fa-chart-line"></i> রেজাল্ট</a></li>
+            <li><a href="academics.html"><i class="fas fa-book"></i> একাডেমিক</a></li>
+            <li><a href="teachers.html"><i class="fas fa-chalkboard-teacher"></i> শিক্ষকবৃন্দ</a></li>
+            <li><a href="gallery.html"><i class="fas fa-images"></i> গ্যালারি</a></li>
+            <li><a href="contact.html"><i class="fas fa-phone"></i> যোগাযোগ</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <div class="main-content-area">
+            <div class="page-content">
+                <div class="page-header">
+                    <h2><i class="fas fa-bell"></i> নোটিশ বোর্ড</h2>
+                    <p>সমস্ত গুরুত্বপূর্ণ নোটিশ এবং ঘোষণা এখানে প্রকাশিত হয়</p>
+                </div>
+
+                <!-- Notice Filters -->
+                <div class="notice-filters">
+                    <button class="filter-btn active">সব নোটিশ</button>
+                    <button class="filter-btn">জরুরি নোটিশ</button>
+                    <button class="filter-btn">পরীক্ষা সংক্রান্ত</button>
+                    <button class="filter-btn">ছুটি সংক্রান্ত</button>
+                    <button class="filter-btn">ভর্তি সংক্রান্ত</button>
+                </div>
+
+                <!-- Notice List -->
+                <div class="notice-list-container">
+                    <!-- Notice Item 1 -->
+                    <div class="notice-item new">
+                        <div class="notice-header">
+                            <span class="notice-date">
+                                <i class="far fa-calendar"></i>
+                                প্রকাশের তারিখ: ০৫ ডিসেম্বর ২০২৪
+                            </span>
+                            <span class="notice-badge">জরুরি</span>
+                        </div>
+                        <div class="notice-content">
+                            <h3 class="notice-title">বার্ষিক পরীক্ষার সময়সূচী প্রকাশ</h3>
+                            <p class="notice-description">
+                                ২০২৪ শিক্ষাবর্ষের বার্ষিক পরীক্ষার সময়সূচী প্রকাশ করা হয়েছে। ষষ্ঠ থেকে দশম শ্রেণীর সকল শিক্ষার্থীর জন্য এই পরীক্ষা ১৫ই ডিসেম্বর থেকে শুরু হয়ে ২৫শে ডিসেম্বর পর্যন্ত চলবে।
+                            </p>
+                        </div>
+                        <div class="notice-footer">
+                            <div class="notice-views">
+                                <i class="far fa-eye"></i>
+                                <span>৩২৫ বার দেখা হয়েছে</span>
+                            </div>
+                            <a href="notices/annual-exam-schedule.pdf" class="view-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> পিডিএফ দেখুন
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Notice Item 2 -->
+                    <div class="notice-item new">
+                        <div class="notice-header">
+                            <span class="notice-date">
+                                <i class="far fa-calendar"></i>
+                                প্রকাশের তারিখ: ০৩ ডিসেম্বর ২০২৪
+                            </span>
+                            <span class="notice-badge">নতুন</span>
+                        </div>
+                        <div class="notice-content">
+                            <h3 class="notice-title">শীতকালীন ছুটির নোটিশ</h3>
+                            <p class="notice-description">
+                                শীতকালীন ছুটি ২৪শে ডিসেম্বর থেকে শুরু হয়ে ১লা জানুয়ারি পর্যন্ত চলবে। ২রা জানুয়ারি থেকে শ্রেণী কার্যক্রম স্বাভাবিকভাবে শুরু হবে। সকল শিক্ষার্থী ও অভিভাবকদের অবগতির জন্য জানানো যাচ্ছে।
+                            </p>
+                        </div>
+                        <div class="notice-footer">
+                            <div class="notice-views">
+                                <i class="far fa-eye"></i>
+                                <span>২৮৭ বার দেখা হয়েছে</span>
+                            </div>
+                            <a href="notices/winter-vacation.pdf" class="view-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> পিডিএফ দেখুন
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Notice Item 3 -->
+                    <div class="notice-item">
+                        <div class="notice-header">
+                            <span class="notice-date">
+                                <i class="far fa-calendar"></i>
+                                প্রকাশের তারিখ: ৩০ নভেম্বর ২০২৪
+                            </span>
+                            <span class="notice-badge">ভর্তি</span>
+                        </div>
+                        <div class="notice-content">
+                            <h3 class="notice-title">২০২৫ শিক্ষাবর্ষে ভর্তি সংক্রান্ত নোটিশ</h3>
+                            <p class="notice-description">
+                                ২০২৫ শিক্ষাবর্ষে ষষ্ঠ শ্রেণীতে ভর্তি কার্যক্রম ১৫ই জানুয়ারি থেকে শুরু হবে। অনলাইন ভর্তি ফরম পূরণের শেষ তারিখ ৩১শে জানুয়ারি। প্রয়োজনীয় документы সহ বিস্তারিত তথ্য পিডিএফ ফাইলে দেওয়া আছে।
+                            </p>
+                        </div>
+                        <div class="notice-footer">
+                            <div class="notice-views">
+                                <i class="far fa-eye"></i>
+                                <span>৫৪২ বার দেখা হয়েছে</span>
+                            </div>
+                            <a href="notices/admission-2025.pdf" class="view-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> পিডিএফ দেখুন
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Notice Item 4 -->
+                    <div class="notice-item">
+                        <div class="notice-header">
+                            <span class="notice-date">
+                                <i class="far fa-calendar"></i>
+                                প্রকাশের তারিখ: ২৮ নভেম্বর ২০২৪
+                            </span>
+                            <span class="notice-badge">পরীক্ষা</span>
+                        </div>
+                        <div class="notice-content">
+                            <h3 class="notice-title">মধ্যবর্তী পরীক্ষার রুটিন প্রকাশ</h3>
+                            <p class="notice-description">
+                                নবম-দশম শ্রেণীর মধ্যবর্তী পরীক্ষার রুটিন প্রকাশ করা হয়েছে। পরীক্ষা ১০ই ডিসেম্বর থেকে শুরু হয়ে ১৮ই ডিসেম্বর পর্যন্ত চলবে। প্রতিটি শ্রেণীর জন্য আলাদা আলাদা রুটিন পিডিএফ ফাইলে দেওয়া আছে।
+                            </p>
+                        </div>
+                        <div class="notice-footer">
+                            <div class="notice-views">
+                                <i class="far fa-eye"></i>
+                                <span>১৮৯ বার দেখা হয়েছে</span>
+                            </div>
+                            <a href="notices/mid-term-routine.pdf" class="view-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> পিডিএফ দেখুন
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Notice Item 5 -->
+                    <div class="notice-item">
+                        <div class="notice-header">
+                            <span class="notice-date">
+                                <i class="far fa-calendar"></i>
+                                প্রকাশের তারিখ: ২৫ নভেম্বর ২০২৪
+                            </span>
+                            <span class="notice-badge">সাংস্কৃতিক</span>
+                        </div>
+                        <div class="notice-content">
+                            <h3 class="notice-title">বার্ষিক সাংস্কৃতিক প্রতিযোগিতা</h3>
+                            <p class="notice-description">
+                                বিদ্যালয়ের বার্ষিক সাংস্কৃতিক প্রতিযোগিতা ২০শে ডিসেম্বর অনুষ্ঠিত হবে। আগ্রহী শিক্ষার্থীদের ১০ই ডিসেম্বরের মধ্যে তাদের নাম নিবন্ধন করতে হবে। প্রতিযোগিতার বিস্তারিত তথ্য ও নিয়মাবলী পিডিএফ ফাইলে দেওয়া আছে।
+                            </p>
+                        </div>
+                        <div class="notice-footer">
+                            <div class="notice-views">
+                                <i class="far fa-eye"></i>
+                                <span>২৩৪ বার দেখা হয়েছে</span>
+                            </div>
+                            <a href="notices/cultural-competition.pdf" class="view-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> পিডিএফ দেখুন
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Notice Item 6 -->
+                    <div class="notice-item">
+                        <div class="notice-header">
+                            <span class="notice-date">
+                                <i class="far fa-calendar"></i>
+                                প্রকাশের তারিখ: ২০ নভেম্বর ২০২৪
+                            </span>
+                            <span class="notice-badge">ছুটি</span>
+                        </div>
+                        <div class="notice-content">
+                            <h3 class="notice-title">বিজয় দিবস উদযাপন</h3>
+                            <p class="notice-description">
+                                মহান বিজয় দিবস উপলক্ষ্যে ১৬ই ডিসেম্বর বিদ্যালয় বন্ধ থাকবে। ১৭ই ডিসেম্বর থেকে শ্রেণী কার্যক্রম স্বাভাবিকভাবে চলবে। এই দিনটি উপলক্ষ্যে বিভিন্ন সাংস্কৃতিক কর্মসূচির আয়োজন করা হয়েছে।
+                            </p>
+                        </div>
+                        <div class="notice-footer">
+                            <div class="notice-views">
+                                <i class="far fa-eye"></i>
+                                <span>১৭৬ বার দেখা হয়েছে</span>
+                            </div>
+                            <a href="notices/victory-day.pdf" class="view-btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> পিডিএফ দেখুন
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <a href="#" class="page-btn active">1</a>
+                    <a href="#" class="page-btn">2</a>
+                    <a href="#" class="page-btn">3</a>
+                    <a href="#" class="page-btn next-btn">পরবর্তী <i class="fas fa-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3><i class="fas fa-map-marker-alt"></i> যোগাযোগ</h3>
+                <div class="contact-info">
+                    <p><i class="fas fa-school"></i> বাগমারা বালিকা উচ্চ বিদ্যালয়</p>
+                    <p><i class="fas fa-road"></i> বাগমারা, লালমাই, কুমিল্লা</p>
+                    <p><i class="fas fa-city"></i> কুমিল্লা-৬২০০</p>
+                    <p><i class="fas fa-envelope"></i> info@bagmara-girls.edu.bd</p>
+                    <p><i class="fas fa-phone"></i> ০৭২১-৫৫৫৫৫৫</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3><i class="fas fa-link"></i> দরকারী লিংক</h3>
+                <ul class="footer-links">
+                    <li><a href="#" class="footer-link"><i class="fas fa-external-link-alt"></i> শিক্ষা মন্ত্রণালয়</a></li>
+                    <li><a href="#" class="footer-link"><i class="fas fa-external-link-alt"></i> মাধ্যমিক শিক্ষা বোর্ড</a></li>
+                    <li><a href="#" class="footer-link"><i class="fas fa-external-link-alt"></i> ডিজিটাল বাংলাদেশ</a></li>
+                    <li><a href="#" class="footer-link"><i class="fas fa-external-link-alt"></i> শিক্ষক বাতায়ন</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3><i class="fas fa-share-alt"></i> সামাজিক যোগাযোগ</h3>
+                <div class="social-links">
+                    <a href="#" class="social-btn facebook">
+                        <i class="fab fa-facebook-f"></i> Facebook
+                    </a>
+                    <a href="#" class="social-btn youtube">
+                        <i class="fab fa-youtube"></i> YouTube
+                    </a>
+                    <a href="#" class="social-btn twitter">
+                        <i class="fab fa-twitter"></i> Twitter
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; ২০২৪ বাগমারা বালিকা উচ্চ বিদ্যালয়। সকল স্বত্ব সংরক্ষিত।</p>
+            <p class="developer-credit">
+                ডেভেলপড বাই: <strong>MD Jahidul Islam</strong>
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
